@@ -33,4 +33,8 @@ fn main() {
     for i in 'a'..='z' {
         println!("{}", i);
     }
+
+    let a = 8;
+    let b:Vec<i32> = Vec:new();
+    let (a,c) = ("hi", false);
 }
